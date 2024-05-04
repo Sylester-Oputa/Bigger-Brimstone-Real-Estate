@@ -1878,6 +1878,31 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Terms and Conditions Section
+--------------------------------------------------------------*/
+
+.inner-content-sec {
+  padding: 30px 30px 30px 30px;
+}
+
+@media (max-width: 768px) {
+  .inner-content-sec .container {
+      margin: 0 auto;
+  }
+}
+
+.inner-content-sec .container {
+  padding: 50px;
+  background: #fff;
+  box-shadow: 0 0 20px #313131;
+}
+
+@media (max-width: 1199px) {
+  .container {
+      width: 95% !important;
+  }
+}
+/*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials-box {
@@ -1934,8 +1959,8 @@ a:hover {
 # Contact Section
 --------------------------------------------------------------*/
 .form-as #sendmessage {
-  color: #2eca6a;
-  border: 1px solid #26a356;
+  color: #EBBB2D;
+  border: 1px solid #EBBB2D;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1988,7 +2013,7 @@ a:hover {
 
 .form-as .form-control:focus {
   box-shadow: none;
-  border-color: #2eca6a;
+  border-color: #EBBB2D;
 }
 
 .php-email-form .error-message {
@@ -2003,7 +2028,7 @@ a:hover {
 .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #EBBB2D;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -2023,7 +2048,7 @@ a:hover {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #EBBB2D;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -2049,7 +2074,7 @@ a:hover {
 
 .php-email-form .form-control:focus {
   box-shadow: none;
-  border-color: #2eca6a;
+  border-color: #EBBB2D;
 }
 
 @keyframes animate-loading {
